@@ -10,6 +10,7 @@ body {
   background-color: lightgoldenrodyellow;
   font-family: "Prata", serif;
   background-color: rgb(248, 237, 235);
+  user-select: none;
 }
 
 #main-container {
@@ -27,9 +28,9 @@ body {
   margin-bottom: 2rem;
   border-bottom-right-radius: 25rem;
   border-bottom-left-radius: 25rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   overflow: hidden;
-  /* margin-left: 3rem;
-  margin-right: 3rem; */
 }
 
 img {
@@ -45,24 +46,19 @@ img {
   height: 50rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-
-  /* margin-right: 3rem; */
+  border-radius: 5px;
 }
 
 #menu-bar-container {
-  /* background-color: rgb(252, 213, 206); */
   width: 100%;
   height: 7rem;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
 .top-buttons {
   color: white;
-  /* background-color: aquamarine; */
   display: flex;
-  /* flex-wrap: nowrap; */
   justify-content: center;
   align-items: center;
   margin-right: 1.5rem;
@@ -75,7 +71,6 @@ img {
 }
 
 #name-container {
-  /* background-color: aqua; */
   font-size: 1.5rem;
   width: 100%;
   height: 3rem;
@@ -87,7 +82,6 @@ img {
 }
 
 h1 {
-  /* background-color: aquamarine; */
   width: 100%;
   margin-top: 1rem;
   font-size: 3.5rem;
@@ -105,7 +99,6 @@ h1 span {
 #work-experience-container {
   background-color: rgb(252, 213, 206);
   width: 95%;
-  /* height: 50rem; */
   margin-top: 5rem;
   margin-right: auto;
   margin-left: auto;
@@ -113,11 +106,10 @@ h1 span {
   font-size: 2.5rem;
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
 }
 
 #write-work-experience {
-  /* background-color: blue; */
-  /* padding-bottom: 5rem; */
   width: 91%;
   margin-left: auto;
   margin-right: auto;
@@ -126,9 +118,7 @@ h1 span {
 }
 
 #work-experience-title {
-  /* background-color: palegreen; */
   width: 100%;
-  /* height: 5rem; */
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
@@ -138,12 +128,9 @@ h1 span {
 }
 
 #experiences-container {
-  /* background-color: aqua; */
   width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
 }
 
 #one {
@@ -154,7 +141,6 @@ h1 span {
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  /* margin-right: 5rem; */
   border-radius: 50%;
   color: white;
   transition: width 0.3s linear, border-radius 0.5s linear;
@@ -166,7 +152,6 @@ h1 span {
 }
 
 #one:hover {
-  /* background-color: green; */
   cursor: pointer;
   width: 30%;
   border-radius: 20%;
@@ -178,7 +163,6 @@ h1 span {
   background-color: rgb(255, 181, 167);
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  /* margin-right: 5rem; */
   margin-left: auto;
   margin-right: auto;
 
@@ -193,7 +177,6 @@ h1 span {
 }
 
 #two:hover {
-  /* background-color: green; */
   cursor: pointer;
   width: 30%;
   border-radius: 20%;
@@ -218,7 +201,6 @@ h1 span {
 }
 
 #three:hover {
-  /* background-color: green; */
   cursor: pointer;
   width: 30%;
   border-radius: 20%;
@@ -243,7 +225,6 @@ h1 span {
 }
 
 #four:hover {
-  /* background-color: green; */
   cursor: pointer;
   width: 30%;
   border-radius: 20%;
@@ -266,7 +247,6 @@ h1 span {
 }
 
 #five:hover {
-  /* background-color: green; */
   cursor: pointer;
   width: 30%;
   border-radius: 20%;
@@ -297,14 +277,13 @@ h1 span {
 #education-container {
   background-color: rgb(252, 213, 206);
   width: 95%;
-  /* height: 50rem; */
   margin-top: 5rem;
   margin-right: auto;
   margin-left: auto;
-
   font-size: 2.5rem;
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
 }
 
 #educational-content {
@@ -344,14 +323,13 @@ h1 span {
   margin-top: 2rem;
 }
 
-#first-ed-container {
+.each-ed-container {
   display: flex;
   margin-bottom: 2rem;
-}
-
-#second-ed-container {
-  display: flex;
-  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(255, 181, 167);
+  border-radius: 5px;
 }
 
 .education-info {
@@ -373,7 +351,6 @@ h1 span {
 #first-div {
   display: flex;
   margin-bottom: 2rem;
-  /* justify-content: space-evenly; */
 }
 
 #second-div {
