@@ -21,9 +21,8 @@ body {
 }
 
 #image-container {
-  background-color: pink;
-  width: 40%;
-  height: 50rem;
+  width: 25%;
+  height: 45rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-bottom-right-radius: 25rem;
@@ -42,16 +41,16 @@ img {
 
 #info-container {
   background-color: rgb(252, 213, 206);
-  width: 40%;
-  height: 50rem;
+  width: 50%;
+  height: 45rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 #menu-bar-container {
   width: 100%;
-  height: 7rem;
+  height: 5rem;
   display: flex;
   align-items: center;
 }
@@ -61,30 +60,30 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 1.5rem;
-  font-size: 1.8rem;
+  margin-right: 3rem;
+  font-size: 1.5rem;
 }
 
 .top-buttons a {
   color: white;
   text-decoration: none;
+  border: none;
 }
 
 #name-container {
-  font-size: 1.5rem;
   width: 100%;
   height: 3rem;
   display: flex;
   align-items: center;
   margin-top: 4rem;
   color: rgb(227, 149, 162);
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h1 {
   width: 100%;
   margin-top: 1rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 100;
   color: white;
 }
@@ -98,27 +97,20 @@ h1 span {
 
 #work-experience-container {
   background-color: rgb(252, 213, 206);
-  width: 95%;
+  width: 90%;
   margin-top: 5rem;
   margin-right: auto;
   margin-left: auto;
-
   font-size: 2.5rem;
   display: flex;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
-#write-work-experience {
-  width: 91%;
+.section-title {
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-#work-experience-title {
-  width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
@@ -128,186 +120,152 @@ h1 span {
 }
 
 #experiences-container {
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+}
+
+#first-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
   margin-bottom: 2rem;
 }
 
-#one {
+#second-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* margin-bottom: 2rem; */
+}
+
+.exp-content {
   width: 25rem;
-  height: 25rem;
+  height: 15rem;
   background-color: rgb(255, 181, 167);
+  color: white;
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  color: white;
-  transition: width 0.3s linear, border-radius 0.5s linear;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1.5rem;
+  transition: box-shadow 0.2s linear;
 }
 
-#one:hover {
+.exp-content:hover {
   cursor: pointer;
-  width: 30%;
-  border-radius: 20%;
+  box-shadow: 0 10px 30px white;
 }
 
-#two {
-  width: 25rem;
-  height: 25rem;
-  background-color: rgb(255, 181, 167);
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  border-radius: 50%;
-  color: white;
-  transition: width 0.3s linear, border-radius 0.5s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem;
+.margin-right {
+  margin-right: 5rem;
 }
 
-#two:hover {
-  cursor: pointer;
-  width: 30%;
-  border-radius: 20%;
-}
-
-#three {
-  width: 25rem;
-  height: 25rem;
-  background-color: rgb(255, 181, 167);
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  color: white;
-  transition: width 0.3s linear, border-radius 0.5s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-#three:hover {
-  cursor: pointer;
-  width: 30%;
-  border-radius: 20%;
-}
-
-#four {
-  width: 25rem;
-  height: 25rem;
-  background-color: rgb(255, 181, 167);
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  color: white;
-  transition: width 0.3s linear, border-radius 0.5s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-#four:hover {
-  cursor: pointer;
-  width: 30%;
-  border-radius: 20%;
-}
-
-#five {
-  width: 25rem;
-  height: 25rem;
-  background-color: rgb(255, 181, 167);
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 50%;
-  color: white;
-  transition: width 0.3s linear, border-radius 0.5s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-#five:hover {
-  cursor: pointer;
-  width: 30%;
-  border-radius: 20%;
-}
-
-#six {
-  width: 25rem;
-  height: 25rem;
-  background-color: rgb(255, 181, 167);
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 50%;
-  color: white;
-  transition: width 0.3s linear, border-radius 0.5s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-#six:hover {
-  cursor: pointer;
-  width: 30%;
-  border-radius: 20%;
+.margin-left {
+  margin-left: 5rem;
 }
 
 #education-container {
   background-color: rgb(252, 213, 206);
-  width: 95%;
+  width: 90%;
   margin-top: 5rem;
   margin-right: auto;
   margin-left: auto;
+  /* margin-bottom: 5rem; */
   font-size: 2.5rem;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
 }
 
-#educational-content {
-  width: 91%;
+.each-ed-container {
+  width: 90%;
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(255, 181, 167);
+  border-radius: 5px;
+}
+
+.education-info {
+  color: white;
+  font-size: 1.7rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.education-place {
+  color: white;
+  font-size: 1.7rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contact-me-container {
+  background-color: rgb(252, 213, 206);
+  width: 90%;
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+
+#contact-me-form {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: auto;
 }
 
-#education-title {
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid white;
+#contact-container {
+  width: 90%;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  display: block;
+  width: 40rem;
+  height: 2rem;
+}
+
+label {
+  font-size: 1.5rem;
   color: white;
 }
 
-#ed-container {
-  width: 100%;
-  margin-top: 2rem;
+#input-message {
+  height: 25rem;
   margin-bottom: 2rem;
+}
+
+#submit-button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  border-style: none;
+  background-color: rgb(255, 181, 167);
+  border: 0.5px solid black;
+  color: white;
+  border-radius: 0.2rem;
 }
 
 #footer {
@@ -321,42 +279,6 @@ h1 span {
   text-decoration: underline;
   margin-bottom: 2rem;
   margin-top: 2rem;
-}
-
-.each-ed-container {
-  display: flex;
-  margin-bottom: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: rgb(255, 181, 167);
-  border-radius: 5px;
-}
-
-.education-info {
-  color: white;
-  font-size: 2rem;
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.education-place {
-  color: white;
-  font-size: 2rem;
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-#first-div {
-  display: flex;
-  margin-bottom: 2rem;
-}
-
-#second-div {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 2rem;
 }
 
 #footer a {
